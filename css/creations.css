@@ -1,0 +1,32 @@
+.creations-heading {
+    font-weight: lighter;
+    font-size: 3em;
+}
+.creations-btn button {
+    background-color: white;
+}
+.creations-item {
+    transition: all ease-in-out 300ms;
+    position: relative;
+    text-align: center; 
+}
+.creations-subheading {
+    position: absolute;
+    left: 1.5em;
+    bottom: 0;
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    transition: all ease-in-out 300ms;
+    z-index: 5;
+    text-align: start;
+}
+
+.creations-item img:hover{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5)255, 0.5) 100%, rgb(255, 255, 255) 100%;
+}
+.creations-item:hover .creations-subheading {
+    color: black;
+}

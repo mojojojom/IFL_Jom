@@ -1,0 +1,16 @@
+.banner-section {
+    background-image: url("../images/desktop/image-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.banner-heading {
+    font-size: 5em;
+    color: white;
+    font-weight: lighter;
+    padding: 0.3em 1.3em 0.3em 0.3em;
+    line-height: 0.9em;
+}
